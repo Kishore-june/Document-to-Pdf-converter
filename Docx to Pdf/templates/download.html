@@ -1,0 +1,9 @@
+<!doctype html>
+<title>Download File</title>
+<h1>Download File</h1>
+<!-- Add a download link for the uploaded file -->
+<p>
+    <a href="{{ url_for('static', filename='uploads/' + filename) }}" download="{{filename}}">
+      {{ filename }} Download
+    </a>
+  </p>
