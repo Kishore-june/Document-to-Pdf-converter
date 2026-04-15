@@ -51,4 +51,5 @@ This Flask application allows users to upload DOCX files and converts them to PD
 - `if __name__ == "__main__":`: 
   - Ensures the script runs directly (not imported as a module).
   - `app.run(debug=True)`: Runs the Flask development server in debug mode for easier testing.
-
+##  Author
+**Kishore S** — [LinkedIn](https://linkedin.com/in/kishore-sakthi) · [GitHub](https://github.com/Kishore-june)
